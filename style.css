@@ -1,0 +1,56 @@
+body {
+    background-color: #b9d2ff;
+    color: #030538;
+}
+
+#clock-backing {
+    background-color: #f4f2ed;
+    margin-right: 275px;
+    margin-left: 275px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 10px #000000;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+#displays-row p {
+    color: #030538;
+    font-size: 18px;
+}
+
+#session-display, #break-display {
+    background-color: #030538;
+    height: 50px;
+    width: auto;
+    margin: 15px;
+    color: #f4f2ed;
+    font-size: 36px;
+    padding-top: 0px;
+}
+
+#primary-display {
+    background-color: #030538;
+    height: 100px;
+    width: auto;
+    margin: 15px;
+    color: #f4f2ed;
+    font-size: 48px;
+}
+
+.top, .end{
+    text-align: center;
+}
+
+#indicator{
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 1000px){
+    #clock-backing {
+        margin: auto;
+    }
+
+}

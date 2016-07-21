@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pomodoro Clock</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script type =  "text/javascript" src = "script.js"></script>
+</head>
+<body id = "main">
+<div class = "container-fluid">
+    <div class = "top">
+        <h1>The Final Countdown</h1>
+    </div>
+    <div id = "clock-backing">
+        <div id = "indicator">
+            Session
+        </div>
+        <div id = "displays-row" class = "row">
+            <div id = "session" class = "col-xs-3 text-center">
+                <div id = "session-display" class = "well">
+                    25
+                </div>
+                <div id = "session-buttons">
+                <div id = "session-plus" class = "col-xs-6 text-center">
+                    <p class = "btn btn-block">+</p>
+                </div>
+                <div id = "session-minus" class = "col-xs-6 text-center">
+                    <p class = "btn btn-block">-</p>
+                </div>
+                </div>
+                <div id = "session-label">
+                    Set Session
+                </div>
+            </div>
+            <div id = "primary" class = "col-xs-6 text-center">
+                <div id = "primary-display" class = "well">
+                    25:00
+                </div>
+                <div id = "primary-buttons">
+                <div id = "primary-toggle" class = "col-xs-6 text-center">
+                    <p class = "btn btn-block">Start/Pause</p>
+                </div>
+                <div id = "primary-reset" class = "col-xs-6 text-center">
+                    <p class = "btn btn-block">Reset</p>
+                </div>
+                    </div>
+            </div>
+            <div id = "break" class = "col-xs-3 text-center">
+                <div id = "break-display" class = "well">
+                    5
+                </div>
+                <div id = "break-buttons">
+                <div id = "break-plus" class = "col-xs-6 text-center">
+                    <p class = "btn btn-block">+</p>
+                </div>
+                <div id = "break-minus" class = "col-xs-6 text-center">
+                    <p class = "btn btn-block">-</p>
+                </div>
+                </div>
+                <div id = "break-label">
+                    Set Break
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "end">
+        <p>Coded by Travis Arbon</p>
+    </div>
+</div>
+</body>
+</html>
